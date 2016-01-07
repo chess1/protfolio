@@ -1,0 +1,136 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+main {
+  background: #F6F6F9;
+  padding: 1%;
+}
+section {
+  width: 75%;
+  margin: 0 auto !important;
+}
+section h1 {
+  margin-bottom: 2%;
+  padding-left: 12px;
+  border-bottom: 2px solid;
+  color: #BBBBBB;
+}
+.header-content {
+  height: 100%;
+}
+.header {
+  border-radius: 100px;
+  border: 28px dashed #B0EF9B;
+}
+.headerWrap {
+  border-bottom: 4px double #B0EF9B;
+  padding: 0 25px;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.my-pic {
+  border-radius: 51px;
+}
+.projectImg{
+  height: 181px;
+}
+.bigImg {
+  width: 50%;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+.bigImg img{
+  height: 100%;
+  margin: 0 auto;
+}
+.intro {
+  float: right;
+  text-align: right;
+  font-style: italic;
+  font-family: serif;
+}
+.intro h1:nth-child(1) {
+  font-size: 50px;
+  font-variant: small-caps;
+}
+.pathToProject {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+
+}
+.squaresWrapper {
+  float: left;  
+  margin-left: 5%;
+}
+.div {
+  width: 100%;
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10%;
+  height: 70px;
+  opacity: .8;  
+}
+.one {
+  background: #EF6518;
+}
+.two {
+  background: #666756;
+}
+.three {
+  background: #BBBBBB;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width : 991px ){
+  article {
+    border-bottom: 5px double rgba(42, 156, 98, 0.47);
+    margin-bottom: 5%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .intro {
+    float: none;
+    text-align: center;
+    margin: 0 auto;    
+  }
+  .header {
+    display: none;
+  }
+  .squaresWrapper {
+    display: none;
+  }
+  .bigImg {
+    width: 90%;
+  }
+  .pathToProject {
+    margin-bottom: 5%;
+  } 
+}
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 465px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+
+
+
+
